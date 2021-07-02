@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-06-28T14:59:00.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0q7UxVL5S5rr5258Hn5w" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T05:42:11.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_00iPD0C7fAc7ZGY7c77" version="14.8.3" type="github">
   <diagram id="B_t15Z8W5iAApkIYanL3" name="第 1 页">
-    <mxGraphModel dx="716" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <object label="beanfactory" BeanFactory="简单bean实例化和bean管理" id="8jLjw2lYaD5MSaCEYgZy-1">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="550" y="185" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-2" value="beanfactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-2" value="beanfactory" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="280" width="120" height="30" as="geometry" />
         </mxCell>
         <object label="&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;ListableBeanFactory&lt;/pre&gt;" ListableBeanFactory="枚举bean，预加载所有bean定义" id="8jLjw2lYaD5MSaCEYgZy-4">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="540" y="275" width="140" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-4" target="8jLjw2lYaD5MSaCEYgZy-1">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-4" target="8jLjw2lYaD5MSaCEYgZy-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="540" y="285" as="sourcePoint" />
             <mxPoint x="610" y="205" as="targetPoint" />
@@ -25,23 +25,23 @@
           </mxGeometry>
         </mxCell>
         <object label="&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;HierarchicalBeanFactory&lt;/span&gt;&lt;/pre&gt;" HierarchicalBeanFactory="获取父容器" id="8jLjw2lYaD5MSaCEYgZy-8">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="245" y="270" width="160" height="30" as="geometry" />
           </mxCell>
         </object>
         <object label="&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;ConfigurableBeanFactory&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" ConfigurableBeanFactory="允许框架内部的即插即用和对 bean 工厂配置方法的特殊访问" id="8jLjw2lYaD5MSaCEYgZy-10">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="240" y="360" width="170" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-10" target="8jLjw2lYaD5MSaCEYgZy-8">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-10" target="8jLjw2lYaD5MSaCEYgZy-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="324.65999999999997" y="300" as="sourcePoint" />
             <mxPoint x="325" y="310" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-8" target="8jLjw2lYaD5MSaCEYgZy-1">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-14" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-8" target="8jLjw2lYaD5MSaCEYgZy-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="230" as="sourcePoint" />
             <mxPoint x="340" y="170" as="targetPoint" />
@@ -52,18 +52,18 @@
           </mxGeometry>
         </mxCell>
         <object label="&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;ConfigurableListableBeanFactory&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" ConfigurableListableBeanFactory="忽略依赖,自动装配判断,冻结bean的定义,枚举所有bean名称的功能" id="8jLjw2lYaD5MSaCEYgZy-17">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="495" y="360" width="230" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620" y="285" as="sourcePoint" />
             <mxPoint x="611" y="305" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17" target="8jLjw2lYaD5MSaCEYgZy-10">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17" target="8jLjw2lYaD5MSaCEYgZy-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620.2142857142858" y="370" as="sourcePoint" />
             <mxPoint x="621" y="315" as="targetPoint" />
@@ -71,11 +71,11 @@
           </mxGeometry>
         </mxCell>
         <object label="&lt;pre style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;AutowireCapableBeanFactory&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" AutowireCapableBeanFactory="自动装配的 bean " id="8jLjw2lYaD5MSaCEYgZy-20">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
             <mxGeometry x="820" y="360" width="230" height="30" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-20" target="8jLjw2lYaD5MSaCEYgZy-1">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-20" target="8jLjw2lYaD5MSaCEYgZy-1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="335" y="280" as="sourcePoint" />
             <mxPoint x="560" y="210" as="targetPoint" />
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8jLjw2lYaD5MSaCEYgZy-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17" target="8jLjw2lYaD5MSaCEYgZy-20">
+        <mxCell id="8jLjw2lYaD5MSaCEYgZy-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8jLjw2lYaD5MSaCEYgZy-17" target="8jLjw2lYaD5MSaCEYgZy-20" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620.2142857142858" y="370" as="sourcePoint" />
             <mxPoint x="621" y="315" as="targetPoint" />
